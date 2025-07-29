@@ -23,7 +23,7 @@ const About = () => {
   return (
     <div class="px-4 w-[95%] flex flex-col justify-center gap-[3em]">
       <div>
-        <h1><TypingText text={'Sobre mi'} nameClass={'text-2xl sm:text-3xl lg:text-5xl font-semibold leading-none text-default-600 text-center'}></TypingText></h1>
+        <h1><TypingText text={'Sobre mi'} nameClass={'text-sm sm:text-base font-semibold leading-none text-default-600 text-center'}></TypingText></h1>
         <div className="py-[1rem]">
             <Image
               isBlurred
