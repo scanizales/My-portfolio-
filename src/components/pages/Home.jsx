@@ -69,7 +69,7 @@ const Home = () => {
                     <Avatar
                       isBordered
                       radius="full"
-                      className="w-20 h-20 md:w-30 md:h-30 animate-slide-left"
+                      className="w-20 h-20 animate-slide-left"
                       src={myPhoto}
                     />
                     <div className="flex flex-col gap-1 items-start justify-center animate-slide-left">
@@ -93,7 +93,7 @@ const Home = () => {
               </Card>
             </div>
             <div className="lg:w-[20%] w-[100%] flex flex-col gap-[3vh] items-center">
-              <p className="text-base text-center font-serif font-bold text-[color:var(--text-color)]">Herramientas y tecnologías con las que he trabajado</p>
+              <p className="text-sm text-center font-serif font-bold text-[color:var(--text-color)]">Herramientas y tecnologías con las que he trabajado</p>
               <Carousel skills={skills}></Carousel>
             </div>
          </div>

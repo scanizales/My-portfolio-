@@ -42,7 +42,7 @@ const About = () => {
           language="java"
           style={isDark ? oneDark : solarizedlight}
           customStyle={{borderRadius: '8px', width: 'auto', ...(isDark ? {} : { background: 'var(--bg-elements)' })}}
-          className="px-3 py-0 !text-[10px] sm:!text-[12px] md:!text-[14px] lg:!text-[20px] border border-transparent hover:border-color-blue"        >
+          className="px-3 py-0 !text-[10px]  md:!text-[12px] lg:!text-[15px] border border-transparent hover:border-color-blue"        >
         {`Map<String, String> habilidadesBlandas = new HashMap<String, String>();
 
 habilidadesBlandas.put("Comunicación", "☑️");
