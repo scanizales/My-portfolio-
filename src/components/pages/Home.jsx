@@ -93,7 +93,7 @@ const Home = () => {
               </Card>
             </div>
             <div className="lg:w-[20%] w-[100%] flex flex-col gap-[3vh] items-center">
-              <p className="font-serif font-bold text-[color:var(--text-color)]">Tecnologías que he usado</p>
+              <p className="text-center font-serif font-bold text-[color:var(--text-color)]">Herramientas y tecnologías con las que he trabajado</p>
               <Carousel skills={skills}></Carousel>
             </div>
          </div>
