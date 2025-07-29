@@ -28,11 +28,11 @@ const About = () => {
             <Image
               isBlurred
               alt="HeroUI Album Cover"
-              className="float-left mr-4 mb-2 w-48 sm:w-56 md:w-64 h-auto rounded-full animate-slide-down"
+              className="float-left mr-4 mb-2 w-48 sm:w-50 md:w-55 h-auto rounded-full animate-slide-down"
               src={avatar}
               style={{ zIndex: 1, margin: '0', paddingRight: '1em', paddingLeft:'1em'}}
             />
-          <p className="px-3 py-0 text-base sm:text-lg text-[color:var(--text-color)]">
+          <p className="px-3 py-0 text-base text-[color:var(--text-color)]">
             Inicié mi formación como desarrolladora de software en 2024, estudiando un tecnólogo en el <strong>SENA</strong>. Desde entonces, me he dedicado a aprender constantemente, desarrollando mi proyecto final, participando a nivel nacional en <strong>Mujeres Digitales 2024</strong> y creando proyectos personales para seguir mejorando.  
             Realicé mis prácticas aplicando lo aprendido y actualmente continúo formándome, buscando una oportunidad que me permita seguir creciendo en este campo, aportando mis conocimientos y aprendiendo cada día más.
           </p>
