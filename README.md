@@ -7,7 +7,7 @@ También encontrarás enlaces a mi currículum, perfil de LinkedIn y formas de c
 
 ## 🚀 Demo en vivo
 
-🔗 [Ver el portafolio en línea]()  
+🔗 [Ver el portafolio en línea](https://myportfolio-sofia.netlify.app/)  
 
 ## 🛠️ Tecnologías usadas
 
