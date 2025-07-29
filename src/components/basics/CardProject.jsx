@@ -2,7 +2,7 @@ import {Card, CardHeader, CardBody, Image, Code} from "@heroui/react";
 
 const CardProject = ({img, tittle, description, technologies, participation}) => {
   return (
-    <Card className="py-4 max-w-[740px] flex flex-col gap-3 element border border-transparent hover:border-color-blue p-4 rounded-lg bg-[var(--bg-elements)]">
+    <Card className="py-4 w-fit flex flex-col gap-3 element border border-transparent hover:border-color-blue p-4 rounded-lg bg-[var(--bg-elements)]">
         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start gap-6">
             <h4 className="text-lg  font-bold text-center">{tittle}</h4>
             <small className="text-color-bue text-base font-bold">{participation}</small>
