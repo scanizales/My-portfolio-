@@ -73,12 +73,12 @@ const Home = () => {
                       src={myPhoto}
                     />
                     <div className="flex flex-col gap-1 items-start justify-center animate-slide-left">
-                      <h4 className="text-sm sm:text-lg md:text-xl  font-semibold leading-none text-default-600">Sofía Canizales</h4>
-                      <h5 className="text-base sm:text-lg  tracking-tight text-[color:var(--text-color)]">Desarrolladora Junior</h5>
+                      <h4 className="text-sm sm:text-lg  font-semibold leading-none text-default-600">Sofía Canizales</h4>
+                      <h5 className="text-base  tracking-tight text-[color:var(--text-color)]">Desarrolladora Junior</h5>
                     </div>
                   </div>
                 </CardHeader>
-                <CardBody className="px-3 py-0 text-base sm:text-lg text-[color:var(--text-color)]">
+                <CardBody className="px-3 py-0 text-base text-[color:var(--text-color)]">
                   <p>
                     Tecnóloga en Análisis y Desarrollo de Software, con habilidades para crear soluciones tecnológicas innovadoras y a la medida, enfocadas en la optimización de procesos y el desarrollo de aplicaciones escalables y eficientes.
                     Soy una persona proactiva, creativa y adaptable, con facilidad para el trabajo en equipo, el aprendizaje de nuevas tecnologías y la resolución de desafíos técnicos.
@@ -93,7 +93,7 @@ const Home = () => {
               </Card>
             </div>
             <div className="lg:w-[20%] w-[100%] flex flex-col gap-[3vh] items-center">
-              <p className="text-base sm:text-lg text-center font-serif font-bold text-[color:var(--text-color)]">Herramientas y tecnologías con las que he trabajado</p>
+              <p className="text-base text-center font-serif font-bold text-[color:var(--text-color)]">Herramientas y tecnologías con las que he trabajado</p>
               <Carousel skills={skills}></Carousel>
             </div>
          </div>
