@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="flex items-center justify-center">
         <Icon img={isDark ? copyRightDark : copyRightLight} />
       </div>
-      <p className="text-xs sm:text-lg md:text-xl font-sans font-bold text-center text-[color:var(--text-color)]">
+      <p className="text-xs sm:text-sm font-sans font-bold text-center text-[color:var(--text-color)]">
        2025 Sofía Canizales. Todos los derechos reservados.
       </p>
     </div>
