@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@keyframes color {
+    from {background-position: 0% 50%;}
+    to {background-position: 100% 50%;}
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(2rem, 3vw, 5rem);
+    color: transparent;
+    background-image: linear-gradient(to left, #AE7EDE, #7B68EE, #3498db, #2ecc71,#AE7EDE);    
+    background-clip: text;
+    animation: color 4s linear infinite;
+    background-size: 400%;
+}
+
+#home, #home-center{
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+}
+
+#home{
+  width: 100%;
+}
+
+#home-center{
+  flex-wrap: wrap;
+}
+
+
+
+  

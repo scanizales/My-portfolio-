@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@plugin '../../hero.ts';
+@source '../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+@custom-variant dark (&:is(.dark *));
+
+@theme { 
+   /*generals*/
+   --color-blue: oklch(62.3% 0.214 259.815);
+   --color-shade-cursor: rgba(0, 0, 0, 0.6);
+
+   /*light mode*/
+   --background-light: linear-gradient(90deg,#a3c8fd,#c0d8f5,#c3dffd,#8ebaf7,#71a8f0);
+   --background-elements-light:#E4D4F4 ;
+   --color-text-light: #71717A;
+   --background-elements-light-two: linear-gradient(to left, rgba(163, 200, 253, 1), rgba(192, 216, 245, 1),rgba(195, 223, 253, 1), rgba(142, 186, 247, 1), rgba(113, 168, 240, 1));
+   --background-color-nav-light: #8BBDD4;
+
+   /*dark mode*/
+   --background-dark: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(15, 23, 42, 0.8), rgba(37, 99, 235, 0.3));
+   --color-text-dark: oklch(70.4% 0.04 256.788);
+   --background-elements-dark: #1f2937;
+   --background-elements-dark-two: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8), rgba(37, 99, 235, 0.3));
+   --background-color-nav-dark: #355569;
+
+}
+
+@layer base {
+  :root {
+    --bg-color-footer: var(--background-elements-light-two);
+    --bg-elements: var(--background-elements-light);
+    --text-color: var(--color-text-light);
+    --bg-nav: var( --background-elements-light-two);
+  }
+  .dark {
+    --bg-color-footer: var(--background-elements-dark-two);
+    --bg-elements: var(--background-elements-dark);
+    --text-color: var(--color-text-dark);
+    --bg-nav: var( --background-elements-dark-two);
+  }
+}
+
+@layer utilities {
+  .border-color-blue{
+    border-color:  var(--color-blue);
+  }
+  .hover\:border-color-blue:hover {
+    border-color: var(--color-blue);
+  }
+  .border-b-color-blue{
+    border-bottom-color: var(--color-blue);
+  }
+  .border-t-color-blue{
+    border-top-color: var(--color-blue);
+  }
+  .text-color-bue{
+    color: var(--color-blue);
+  }
+}
+
+html.dark {
+  background: var(--background-dark);
+}
+
+html {
+  background: var(--background-light);
+}
+
