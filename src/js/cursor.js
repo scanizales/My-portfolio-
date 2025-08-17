@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+export function initCursor() {
   const cursor = document.querySelector(".cursor");
   const button = document.querySelector("button");
 
@@ -7,11 +7,14 @@ document.addEventListener("DOMContentLoaded", () => {
     cursor.style.top = `${e.pageY}px`;
   });
 
-  button.addEventListener("mouseenter", () => {
-    cursor.style.transform = "translate(-50%, -50%) scale(1.5)";
-  });
+  if (button) {
+    button.addEventListener("mouseenter", () => {
+      cursor.style.transform = "translate(-50%, -50%) scale(1.5)";
+    });
 
-  button.addEventListener("mouseleave", () => {
-    cursor.style.transform = "translate(-50%, -50%) scale(1)";
-  });
-});
+    button.addEventListener("mouseleave", () => {
+      cursor.style.transform = "translate(-50%, -50%) scale(1)";
+    });
+  }
+}
+
