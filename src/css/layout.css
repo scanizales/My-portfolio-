@@ -18,7 +18,7 @@
 }
 
 /* Navigation styles for small screens*/
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   #layout{
     display: flex;
     flex-direction: column;

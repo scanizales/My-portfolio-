@@ -29,6 +29,8 @@ import intellij from '../../assets/intellij.png';
 import visualStudioCode from '../../assets/visual-studio-code.png';
 import eclipse from '../../assets/eclipse.png';
 import css from '../../assets/css3.png';
+import openaiDark from '../../assets/dark_mode_openai.png'
+import openaiLight from '../../assets/light_mode_openai.png'
 
 import '../../css/home.css';
 
@@ -53,6 +55,7 @@ const Home = () => {
       { name: 'IntelliJ IDE', img: intellij},
       { name: 'Visual Studio Code', img: visualStudioCode},
       { name: 'Eclipse', img: eclipse},
+      { name: 'OpenAI', img: isDark ? openaiDark: openaiLight},
       { name: 'CSS', img: css},
   ];
 
@@ -61,7 +64,7 @@ const Home = () => {
           <div id='home-center'>
             <div className="w-[75%] flex flex-col gap-[5vh]">
               <h1>
-                <TypingText text={'¡Hola y bienvenid@s a mi portafolio!👋'} nameClass={'anton-regular'}></TypingText>
+                <TypingText text={'¡Hola y bienvenid@s a mi portafolio!'} nameClass={'anton-regular'}></TypingText>
               </h1>
               <Card className="w-[100%] h-[fit-content] mt-10  bg-[var(--bg-elements)] border-2 border-color-blue" >
                 <CardHeader className="justify-between">
@@ -93,7 +96,7 @@ const Home = () => {
               </Card>
             </div>
             <div className="lg:w-[20%] w-[100%] flex flex-col gap-[3vh] items-center">
-              <p className="text-sm text-center font-serif font-bold text-[color:var(--text-color)]">Herramientas y tecnologías con las que he trabajado</p>
+              <p className="text-lg text-center font-serif font-bold text-[color:var(--text-color)]">Herramientas y tecnologías con las que he trabajado</p>
               <Carousel skills={skills}></Carousel>
             </div>
          </div>
