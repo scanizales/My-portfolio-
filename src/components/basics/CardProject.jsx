@@ -9,19 +9,23 @@ const CardProject = ({img, tittle, description, technologies, participation}) =>
             <small className="text-base text-[color:var(--text-color)]">{description}</small>
         </CardHeader>
         <div className="flex flex-wrap gap-2 py-2">
-        {img.map((imgSrc, index) => (
-            <Image
-            key={index}
-            isZoomed
-            alt={`${tittle} ${index}`}
-            src={imgSrc}
-            className={`rounded-xl object-cover ${
-                index === img.length - 1
-                ? "flex-[2_1_calc(40%_-_4px)] min-w-[200px] max-w-[500px]" // la última más grande
-                : "flex-[1_1_calc(20%_-_4px)] min-w-[150px] max-w-[330px]" // las demás
-            }`}
-            />
-        ))}
+{img.map((imgSrc, index) => (
+  <Image
+    key={index}
+    isZoomed
+    alt={`${tittle} ${index}`}
+    src={imgSrc}
+    className={`rounded-xl object-cover
+      w-full
+      sm:flex-[1_1_calc(45%_-_4px)]
+      md:${
+        index === img.length - 1
+          ? "flex-[2_1_calc(40%_-_4px)] max-w-[500px]"
+          : "flex-[1_1_calc(20%_-_4px)] max-w-[330px]"
+      }
+    `}
+  />
+))}
         </div>
 <div className="flex flex-wrap gap-3 p-3">
   {technologies.map((technology, index) => {
