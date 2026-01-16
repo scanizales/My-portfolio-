@@ -9,7 +9,7 @@ import imgEnlasa3 from '../../assets/enlasaHome.png';
 const Projects = () => {
 
   const projects = [
-    {tittle: 'Aplicación Web para Gestionamiento de Seguros', img: [imgEnlasa, imgEnlasa1,  imgEnlasa3, imgEnlasa2], description: 'Enlasa fue desarrollado como proyecto final del SENA. Se trata de una aplicación web cuyo objetivo principal es facilitar la gestión de clientes y sus pólizas, así como la visualización de los productos ofrecidos por la empresa. Actualmente, el proyecto aún no se encuentra implementado en el dominio del cliente.',
+    {tittle: 'Aplicación Web para Gestionamiento de Seguros', img: [imgEnlasa, imgEnlasa1,  imgEnlasa3, imgEnlasa2], description: 'Enlasa fue desarrollado como proyecto final del SENA. Se trata de una aplicación web cuyo objetivo principal es facilitar la gestión de clientes y sus pólizas, así como la visualización de los productos ofrecidos por la empresa.',
      technologies: ['Django', 'Chart.js', 'HTML5', 'CSS', 'JavaScript'], participation: 'FRONTEND & BACKEND'
     },
   ]
