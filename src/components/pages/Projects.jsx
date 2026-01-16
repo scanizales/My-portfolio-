@@ -15,8 +15,21 @@ const Projects = () => {
   ]
   return (
     <div className="w-[95%] flex flex-col justify-center gap-[3em] px-4">
-      <h1><TypingText text={'Proyectos'} nameClass={'text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold leading-tight text-default-600 text-center'}></TypingText></h1>
-      <ListProjects projects={projects}></ListProjects>
+      <h1 className="text-center">
+        <TypingText
+          text="Proyectos"
+          nameClass="
+            text-2xl
+            sm:text-3xl
+            md:text-4xl
+            lg:text-5xl
+            font-bold
+            leading-tight
+            text-default-600
+          "
+        />
+      </h1>
+       <ListProjects projects={projects}></ListProjects>
     </div>
   )
 }

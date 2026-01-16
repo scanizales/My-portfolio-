@@ -24,8 +24,21 @@ const About = () => {
   return (
     <div className="px-4 w-[95%] flex flex-col justify-center gap-[3em]">
       <div className="flex flex-col justify-center gap-[3em]">
-        <h1><TypingText text={'Sobre mi'} nameClass={'text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold leading-tight text-default-600 text-center'}></TypingText></h1>
-        <div> 
+          <h1 className="text-center">
+            <TypingText
+              text="Sobre mí"
+              nameClass="
+                text-2xl
+                sm:text-3xl
+                md:text-4xl
+                lg:text-5xl
+                font-bold
+                leading-tight
+                text-default-600
+              "
+            />
+          </h1>
+          <div> 
           <div className="py-[1rem] flex flex-col md:flex-row md:items-center gap-8">
               <div className="flex justify-center md:justify-start">
               <Image
