@@ -40,10 +40,13 @@ const About = () => {
                 "
               /></div>
               <div className="space-y-8">  
-                <p className="px-3 py-0 text-base text-[color:var(--text-color)]">
-                  Inicié mi formación como desarrolladora de software en 2024, estudiando un tecnólogo en el <strong>SENA</strong>. Desde entonces, me he dedicado a aprender constantemente, desarrollando mi proyecto final, participando a nivel nacional en <strong>Mujeres Digitales 2024</strong> y creando proyectos personales para seguir mejorando.  
-                  Realicé mis prácticas aplicando lo aprendido y actualmente continúo formándome, buscando una oportunidad que me permita seguir creciendo en este campo, aportando mis conocimientos y aprendiendo cada día más.
-                </p>
+              <p className="px-3 py-0 text-base text-[color:var(--text-color)]">
+                Inicié mi formación como Tecnóloga en Análisis y Desarrollo de Software en 2024 en el <strong>SENA</strong>. 
+                Desde entonces he construido un perfil enfocado en el aprendizaje constante y la aplicación práctica, desarrollando proyectos académicos y personales, participando a nivel nacional en <strong>Mujeres Digitales 2024</strong> y realizando mis prácticas en un entorno real de desarrollo.
+                <br />
+                <br />
+                Actualmente trabajo en el área y busco seguir creciendo profesionalmente, asumir nuevos desafíos y aportar valor mientras sigo fortaleciendo mis habilidades técnicas.
+              </p>
           <SyntaxHighlighter
             language="java"
             style={isDark ? oneDark : solarizedlight}
